@@ -10,15 +10,15 @@ This program demonstrates the SparkFun Input and Display Board with a Teensy pro
 
 It requires the following libraries to be loaded via Tools -> Manage Libraries...
 
-Wire *
-ILI9341_t3 *
-SD *
+Wire \*
+ILI9341_t3 \*
+SD \*
 SparkFun_MicroMod_Button
 Adafruit_DotStar
 
-* These libraries may already be installed with Teensyduino.
+\* These libraries may already be installed with Teensyduino.
 
-Pins for Input and Display Board
+Pins for Input and Display Board:
 
 |Teensy Pin	|MM Pin	|MM Name	|Display Carrier
 |---------------|-------|---------------|---------------
@@ -29,7 +29,7 @@ Pins for Input and Display Board
 | 4	|10	|D0	|Display CS
 | 5	|18	|D1	|Display D/C
 | 6	|71	|G6	
-| 7	|56	|Teensy Pin	
+| 7	|56	|AUD_OUT	
 | 8	|54	|I2S_SDI	
 | 9	|69	|G7	
 |10	|55	|SPI_CS#	|uSD CS
@@ -57,14 +57,14 @@ Pins for Input and Display Board
 |31	|43	|CAN_TXO	
 |32	|65	|G9	
 |33	|63	|G10	
-|SD Pins - Cable connector(T4 34-39)			
+|SD Pins			
 |34	|66		
 |35	|64		
 |36	|60		
 |37	|62		
 |38	|68		
 |39	|70		
-|Micromod new pins			
+|MM new pins			
 |40	|40	|G0	|APA102 Clock
 |41	|42	|G1	|APA102 Data
 |42	|44	|G2	|Display Reset#
