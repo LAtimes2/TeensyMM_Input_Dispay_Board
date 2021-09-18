@@ -25,8 +25,8 @@ Pins for Input and Display Board:
 
 |Teensy Pin	|MM Pin	|MM Name	|Display Carrier
 |---------------|-------|---------------|---------------
-| 0	|19	|UART_RX1 (I)	
-| 1	|17	|UART_TX1 (O)	
+| 0	|19	|UART_RX1 (I)	  |RX1
+| 1	|17	|UART_TX1 (O)	  |TX1
 | 2	|47	|PWM1	|Buzzer
 | 3	|32	|PWM0	|Display Backlight
 | 4	|10	|D0	|Display CS
@@ -39,8 +39,8 @@ Pins for Input and Display Board:
 |11	|59	|SPI_COPI	|Display
 |12	|61	|SPI_CIPO	|Display
 |13	|57	|SPI_SCK	|Display
-|14/A0	|34	|A0	
-|15/A1	|38	|A1	
+|14/A0	|34	|A0	  |A0
+|15/A1	|38	|A1	  |A1
 |16/A2	|20	|UART_RX2 (I)	
 |17/A3	|22	|UART_TX2 (O)	
 |18/A4	|12	|I2C_SDA (Qwiic)	|ATTiny 0x71
@@ -56,8 +56,8 @@ Pins for Input and Display Board:
 |27/A13	|8	|G11	
 |28	|4	|3.3V	
 |29	|16	|I2C_INT	|Button INT
-|30	|41	|CAN_RXI	
-|31	|43	|CAN_TXO	
+|30	|41	|CAN_RXI	|CAN-RX
+|31	|43	|CAN_TXO	|CAN-TX
 |32	|65	|G9	
 |33	|63	|G10	
 |SD Pins			
