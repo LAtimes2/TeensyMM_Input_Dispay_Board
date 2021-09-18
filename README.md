@@ -8,8 +8,6 @@ This program demonstrates the SparkFun Input and Display Board with a Teensy pro
 * 6 APA102 LEDs
 * Buzzer
 
-![Demo Picture](/TeensyMM_Demo_small.jpg)
-
 It requires the following libraries to be loaded via Tools -> Manage Libraries...
 
 * Wire \*
@@ -19,6 +17,7 @@ It requires the following libraries to be loaded via Tools -> Manage Libraries..
 * Adafruit_DotStar
 
 \* These libraries may already be installed with Teensyduino.
+
 
 Pins for Input and Display Board:
 
