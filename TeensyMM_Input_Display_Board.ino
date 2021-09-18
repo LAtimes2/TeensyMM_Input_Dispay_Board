@@ -102,7 +102,6 @@ void setup() {
   //
   Wire.begin(); //Join I2C bus
 
-
   //
   // Display : setup
   //
@@ -113,6 +112,27 @@ void setup() {
   // rotate 180 degrees
   tft.setRotation(2);
 
+  //
+  // Buttons : setup
+  //
+  button.begin();
+
+  //
+  // LEDs : setup
+  //
+  strip.begin(); // Initialize pins for output
+  strip.show();  // Turn all LEDs off ASAP
+
+  //
+  // microSD : setup
+  //
+  if (!card.init(SPI_HALF_SPEED, MICROSD_CS)) {
+    // card did not initialize
+  }
+
+  //
+  // general
+  //
   tft.fillScreen(ILI9341_BLACK);
   tft.setTextColor(ILI9341_GREEN);
   tft.setTextSize(2);
@@ -134,24 +154,6 @@ void setup() {
   tft.setTextColor(ILI9341_YELLOW);
   tft.println("  Press any button");
   tft.println ("    to continue");
-
-  //
-  // Buttons : setup
-  //
-  button.begin();
-
-  //
-  // LEDs : setup
-  //
-  strip.begin(); // Initialize pins for output
-  strip.show();  // Turn all LEDs off ASAP
-
-  //
-  // microSD : setup
-  //
-  if (!card.init(SPI_HALF_SPEED, MICROSD_CS)) {
-    // card did not initialize
-  }
 
   // wait for any button to be clicked
   while (!button.getClicked());
