@@ -10,11 +10,11 @@ This program demonstrates the SparkFun Input and Display Board with a Teensy pro
 
 It requires the following libraries to be loaded via Tools -> Manage Libraries...
 
-Wire \*
-ILI9341_t3 \*
-SD \*
-SparkFun_MicroMod_Button
-Adafruit_DotStar
+* Wire \*
+* ILI9341_t3 \*
+* SD \*
+* SparkFun_MicroMod_Button
+* Adafruit_DotStar
 
 \* These libraries may already be installed with Teensyduino.
 
