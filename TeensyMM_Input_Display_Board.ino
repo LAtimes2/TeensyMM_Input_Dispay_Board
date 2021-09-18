@@ -339,7 +339,6 @@ void demoButtonsClick() {
   bool done = false;
   int clicked = 0;
   int previousValue = -1;
-  int leftPressedTime = 0;
 
   tft.fillScreen(ILI9341_BLACK);
   tft.setTextColor(ILI9341_LIGHTGREY, ILI9341_BLACK);
