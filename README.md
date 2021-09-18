@@ -1,7 +1,5 @@
 # TeensyMM SparkFun Input and Display Board Demo
 
-![Demo Picture](/TeensyMM_Demo_small.jpg)
-
 This program demonstrates the SparkFun Input and Display Board with a Teensy processor with the following features:
 
 * 2.4" TFT ILI9341 display
@@ -9,6 +7,8 @@ This program demonstrates the SparkFun Input and Display Board with a Teensy pro
 * microSD slot
 * 6 APA102 LEDs
 * Buzzer
+
+![Demo Picture](/TeensyMM_Demo_small.jpg)
 
 It requires the following libraries to be loaded via Tools -> Manage Libraries...
 
