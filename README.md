@@ -1,6 +1,6 @@
 # TeensyMM SparkFun Input and Display Board Demo
 
-![Picture](/TeensyMM_Demo_small.jpg)
+![Demo Picture](/TeensyMM_Demo_small.jpg)
 
 This program demonstrates the SparkFun Input and Display Board with a Teensy processor with the following features:
 
